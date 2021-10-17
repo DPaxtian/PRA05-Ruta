@@ -47,7 +47,6 @@
             <Font name="Arial Rounded MT Bold" size="16.0" />
          </font>
       </Label>
-      <ComboBox fx:id="cbEdad" layoutX="152.0" layoutY="268.0" prefHeight="31.0" prefWidth="182.0" />
       <TextField fx:id="tfAltura" layoutX="152.0" layoutY="322.0" prefHeight="31.0" prefWidth="153.0" />
       <Label layoutX="312.0" layoutY="325.0" text="cm">
          <font>
@@ -138,6 +137,12 @@
       <Label fx:id="lbResultado" layoutX="146.0" layoutY="524.0" prefHeight="43.0" prefWidth="228.0" textAlignment="JUSTIFY" wrapText="true">
          <font>
             <Font name="Arial Rounded MT Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="cbEdad" layoutX="152.0" layoutY="265.0" prefHeight="31.0" prefWidth="153.0" />
+      <Label layoutX="317.0" layoutY="272.0" text="años">
+         <font>
+            <Font size="16.0" />
          </font>
       </Label>
    </children>
